@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root{
+  --primary-color: rgb(184, 61, 77);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.container {
+  max-width: 640px;
+  margin: 20px auto;
+  background: rgb(209, 209, 209);
+  padding: 20px;
+  border-radius: 0.5em;
+}
+
+
+.stopwatch {
+  font-size: 3em;
+}
+
+.paused {
+  color: red;
+}
