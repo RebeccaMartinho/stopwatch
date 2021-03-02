@@ -13,7 +13,7 @@ body{
   padding: 0;
   background: var(--primary-color);
   font-family: 'Open Sans', sans-serif;
-  font-size: 1.3em;
+  font-size: 1.5em;
   line-height: 1.5em;
 }
 
@@ -22,7 +22,7 @@ body{
   text-align: center;
   margin: 10rem auto;
   background: rgb(209, 209, 209);
-  padding: 20px;
+  padding: 50px;
   border-radius: 0.5em;
 }
 
@@ -30,11 +30,11 @@ button {
   border: none;
   color: black;
   background-color: white;
-  padding: 15px 32px;
+  padding: 20px 40px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 1rem;
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 5px;
@@ -43,7 +43,6 @@ button {
 .start:hover {
   background-color: rgba(15, 167, 28, 0.8);
   color: white;
-  
 }
 
 .pause:hover {
